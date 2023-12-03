@@ -17,7 +17,7 @@ body{
     border-radius: 10px;
 }
 .input{
-    width: 400px;
+    max-width: 400px;
     height: 60px;
     border: 2px solid white;
     display: flex;
@@ -28,7 +28,7 @@ body{
     /* border-radius: 10px; */
 }
 .buttonRows{
-    width: 380px;
+    max-width: 380px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +48,7 @@ body{
     background-color: white;
 }
 .equal{
+    max-width: 240px;
     width: 240px;
     background-color: red;
     color: white;
